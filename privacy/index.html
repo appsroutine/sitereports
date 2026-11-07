@@ -1,182 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy – Site Reports</title>
+<title>Privacy Policy · Site Reports</title>
+<meta name="description" content="Privacy Policy for the Site Reports iOS app.">
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; line-height: 1.65; color: #1c1c1e; background: #fff; }
-  @media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #000; } }
-  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
-  h1 { font-size: 1.7rem; }
-  h2 { font-size: 1.2rem; margin-top: 2.2em; border-bottom: 1px solid rgba(128,128,128,0.25); padding-bottom: 4px; }
-  h3 { font-size: 1.02rem; margin-top: 1.4em; }
+  :root { color-scheme: light dark; --accent: #c2410c; --muted: #6e6e73; --line: rgba(128,128,128,0.25); }
+  body { font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; color: #1d1d1f; background: #fff; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 28px 0 8px; }
+  h2 { font-size: 19px; margin-top: 32px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  h3 { font-size: 16px; margin: 20px 0 4px; }
+  nav { display: flex; flex-wrap: wrap; gap: 6px 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); font-size: 15px; }
+  nav a.home { font-weight: 600; }
+  nav .lang { margin-left: auto; }
+  a { color: var(--accent); }
   ul { padding-left: 1.3em; }
-  footer { margin-top: 48px; font-size: 0.85rem; opacity: 0.6; }
-  a { color: #e8862d; }
-  strong { font-weight: 600; }
+  li { margin: 4px 0; }
+  .muted { color: var(--muted); }
+  .note { background: rgba(194,65,12,0.07); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 6px; }
+  footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #fb923c; --muted: #a1a1a6; }
+    body { color: #f5f5f7; background: #000; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Privacy Policy for Site Reports</h1>
-  <p><strong>Last updated:</strong> July 25, 2026</p>
+<nav><a class="home" href="../">Site Reports</a><a href="../privacy/">Privacy Policy</a><a href="../terms/">Terms &amp; Disclaimer</a><a href="../support/">Support</a><a class="lang" href="../tr/privacy/" hreflang="tr">Türkçe</a></nav>
 
-  <h2>1. Developer Information (Data Controller)</h2>
-  <p>
-    <strong>App Name:</strong> Site Reports<br>
-    <strong>Developer / Controller:</strong> Habibe Atik<br>
-    <strong>Location:</strong> Istanbul, Türkiye<br>
-    <strong>Contact Email:</strong> appsroutine@gmail.com<br>
-    <strong>App Store Publisher:</strong> Habibe Atik
-  </p>
-  <p>For privacy-related questions or requests, contact: <strong>appsroutine@gmail.com</strong></p>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: November 7, 2026</p>
 
-  <h2>2. Overview</h2>
-  <p>Site Reports ("App", "we", "us") provides on-device tools for:</p>
-  <ul>
-    <li>Documenting site issues with photos</li>
-    <li>Annotating photos (arrows, boxes, drawings, text notes)</li>
-    <li>Optional GPS and time stamps on photos and reports</li>
-    <li>Generating branded PDF reports with your logo and signature</li>
-  </ul>
-  <p><strong>We do not upload your projects, photos or reports to servers operated by us. Core content processing occurs locally on your device</strong>, except when you intentionally export or share content through a service you select.</p>
-  <p>We operate <strong>no application servers</strong> and do not integrate analytics, advertising or tracking SDKs into the App. Apple may separately provide us with aggregated App Store analytics, sales information, subscription information, or diagnostic data under Apple's own privacy practices and your device settings. We do not intentionally collect personal information, except when you voluntarily contact us by email or when Apple provides the purchase information necessary to verify your subscription entitlement.</p>
-  <p>This Privacy Policy applies only to the App itself. It does not apply to Apple, the App Store, or third-party services that you choose to use when sharing exported reports.</p>
+<h2>1. Who we are</h2>
+<p>Site Reports (the “App”) is published by Habibe Atik (“we”, “us”), Istanbul, Türkiye, who acts as the data controller for the limited information described in this policy. Contact: <a href="mailto:appsroutine@gmail.com">appsroutine@gmail.com</a>.</p>
 
-  <h2>3. Data We Process</h2>
+<h2>2. Summary</h2>
+<p>The App is designed to store your projects, photos and reports on your device. We do not operate servers for the App, and the App is not designed to upload your content to us. The App does not include advertising, analytics or tracking SDKs. Some features rely on services provided by Apple, as described below.</p>
 
-  <h3>3.1 On-Device Content (No Uploading)</h3>
-  <p>All projects, issues, photos, annotations, notes, company details, logos and signatures you create are processed and stored locally on your device using Apple frameworks (SwiftUI, SwiftData, Core Graphics, PDFKit). <strong>The App does not automatically upload this content to servers operated by us.</strong> Your content leaves your device only when you choose to share or export it, or when it is included in device backups managed under your Apple settings.</p>
+<h2>3. Content you create in the App</h2>
+<p>Projects, issues, photos, annotations, notes, assignees, client names, site addresses, company details, your logo and your signature are stored in the App’s private storage on your device. This content is not intended to be sent to us.</p>
+<p>If you use iCloud Backup or back up your device to a computer, iOS may include the App’s data in that backup. Backups are provided by Apple under your account, and we do not have access to them. Deleting the App removes its data from your device, subject to how iOS handles backups. We are not in a position to recover deleted content.</p>
 
-  <h3>3.2 Camera Access (Optional)</h3>
-  <p>Camera access is requested solely so you can photograph site issues. Photos captured or imported for a project are stored within the App's local storage on your device. You may deny camera permission and, where supported, select existing photos using Apple's system photo picker instead.</p>
+<h2>4. Information about other people</h2>
+<p>Your projects and reports may contain information about other people, such as client names, addresses, assignees, or people and property visible in photos. You are responsible for having an appropriate legal basis and any consents required to collect, store and share this information, and for handling it in line with the laws that apply to you. We do not receive this information through the App.</p>
 
-  <h3>3.3 Location Access (Optional)</h3>
-  <p>Location access is requested solely to add optional GPS stamps to your photos and reports for documentation purposes. Location data is:</p>
-  <ul>
-    <li>Processed entirely on your device</li>
-    <li>Embedded only in the photos and PDF reports you choose to create</li>
-  </ul>
-  <p><strong>The App itself never transmits your location to us or to third parties.</strong> If you share a report containing GPS stamps, that information travels only through the channel you choose (see Section 5.3).</p>
-  <p>You may deny or revoke this permission at any time in <strong>Settings → Privacy &amp; Security → Location Services</strong>. The App can still be used without location permission, but GPS-stamping features will be unavailable.</p>
+<h2>5. Camera and photos</h2>
+<p>The App asks for camera access so you can photograph site issues. Photos you add from your library are selected through Apple’s system photo picker, which gives the App only the photos you choose. If a selected photo contains location information in its file metadata, the App may read it on your device and use it as that photo’s GPS stamp.</p>
 
-  <h3>3.4 In-App Purchases (Handled by Apple)</h3>
-  <p>Payments are processed exclusively by Apple. <strong>We do NOT receive:</strong></p>
-  <ul>
-    <li>Credit card or payment information</li>
-    <li>Your Apple ID, name, email, phone number</li>
-    <li>Billing address</li>
-  </ul>
-  <p>We only receive the purchase information necessary to verify your <strong>subscription entitlement</strong> and unlock Pro features. We do not receive your payment information or Apple ID credentials. Apple's privacy policy applies to payments: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></p>
+<h2>6. Location</h2>
+<p>If you allow it, the App uses your location while you are documenting an issue to add an optional GPS stamp to photos and reports. The App is designed to use only a recent position and not to reuse an earlier one from a different place.</p>
+<p>To show a readable address next to a stamp, the App uses Apple’s geocoding service through the Core Location framework. For this lookup, the coordinates are sent to Apple, which returns an address. This request is handled by Apple under <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>; it does not pass through servers of ours, and we do not receive it.</p>
+<p>You can allow, limit or turn off location access at any time in Settings → Privacy &amp; Security → Location Services. The App can be used without location access. You can also leave GPS stamps out of a report using the report options.</p>
 
-  <h3>3.5 Optional Diagnostic Data</h3>
-  <p>Apple may provide us with crash reports, performance information or aggregated usage metrics when users have enabled the relevant sharing settings (<strong>"Share with App Developers"</strong>). We use this information solely to diagnose technical problems and improve the App. We do not use it for advertising or cross-app tracking. Apple's privacy practices apply to Apple's collection and processing of this information. Disable anytime: <strong>Settings → Privacy &amp; Security → Analytics &amp; Improvements</strong>.</p>
+<h2>7. Sharing and exporting reports</h2>
+<p>When you share or export a report, iOS sends it to the destination you choose, such as Mail, Messages or a file storage service. Those services process the report under their own terms and privacy policies. Reports may include personal information, photos, addresses or GPS coordinates depending on your content and options; please review a report before you share it. We do not receive copies of shared reports.</p>
 
-  <h3>3.6 Contacting Support</h3>
-  <p>If you email us, we receive your email address and message contents. This information is used only to respond to your request. We retain support communications only for as long as necessary to handle your request and to keep reasonable records of our correspondence. You may request deletion at any time.</p>
+<h2>8. Purchases</h2>
+<p>Purchases and subscriptions are processed by Apple. We do not receive your payment card details, billing address or Apple Account password. The App checks your purchase status with Apple on your device. Apple’s privacy policy applies to payments.</p>
 
-  <h2>4. Data We Do NOT Collect</h2>
-  <p>Except for support communications, purchase verification information and Apple-provided diagnostics described in this Policy, we do not intentionally collect, store, track or access:</p>
-  <ul>
-    <li>Photos, annotations or exported reports</li>
-    <li>Client names, site addresses or any project content</li>
-    <li>Face data or biometrics</li>
-    <li>Contacts</li>
-    <li>Location history (location is used momentarily, on-device, per capture)</li>
-    <li>Browsing history</li>
-    <li>Device identifiers (IDFA)</li>
-    <li>Advertising profiles</li>
-    <li>Personal information contained in your projects, photos or reports created through the App</li>
-  </ul>
-  <p>We do <strong>NOT</strong> sell, share, or rent any data to third parties.</p>
+<h2>9. Ratings</h2>
+<p>The App may occasionally show Apple’s standard rating prompt or open the App Store so you can write a review. Ratings and reviews are handled by Apple.</p>
 
-  <h2>5. How Your Content Is Handled</h2>
+<h2>10. Optional diagnostics</h2>
+<p>If you choose to share analytics with app developers in your device settings, Apple may provide us with crash and performance information about the App, managed according to Apple’s privacy practices. It is not intended to include your projects or photos. You can turn this off in Settings → Privacy &amp; Security → Analytics &amp; Improvements.</p>
 
-  <h3>5.1 Local Only</h3>
-  <p>Your content remains on your device; we do not upload it or store it externally. If you delete the App, its local data is deleted with it. We cannot access or recover deleted content. Copies included in your device backups (Section 5.2) or reports you have already shared (Section 5.3) are under your control, not ours.</p>
+<h2>11. Contacting us</h2>
+<p>If you contact us by email, for example with “Contact support” in the App, we receive your email address and the information you choose to share, and we use it to respond. Emails are handled through our email service provider, which may store them on its servers in other countries. Please avoid sending photos, reports or sensitive personal information by email.</p>
 
-  <h3>5.2 Device Backups</h3>
-  <p>Your App content may be included in your personal device backups (e.g. iCloud device backup) under Apple's terms. You control backups from your device settings; we have no access to them.</p>
+<h2>12. Information we do not intend to collect</h2>
+<p>The App is not designed to collect your projects, photos, reports, contacts, location history, browsing history, advertising identifiers or usage analytics, and we do not build advertising profiles. We do not sell or rent personal information.</p>
 
-  <h3>5.3 Shared Reports</h3>
-  <p>When you export or share a PDF report, it is delivered <strong>only</strong> to the destination you choose (email, messaging apps, cloud drives, etc.). We do not keep, access or track copies. Content you share is governed by the privacy practices of the services you share it with, and by your own obligations toward your clients.</p>
-  <p>Reports you export may contain personal information, photographs, GPS coordinates or other information depending on the options you selected. <strong>You are solely responsible for reviewing exported reports before sharing them.</strong></p>
+<h2>13. Permissions</h2>
+<ul>
+  <li>Camera: to take photos of site issues.</li>
+  <li>Location (while using the App): for optional GPS stamps.</li>
+</ul>
+<p>Photos from your library are chosen through the system photo picker, which does not require access to your whole library. You can change permissions at any time in your device settings.</p>
 
-  <h2>6. Accuracy Limitations (GPS &amp; Reports)</h2>
-  <p>GPS stamps depend on your device's positioning hardware and environmental conditions. <strong>Accuracy is not guaranteed.</strong></p>
-  <p><strong>You are responsible for:</strong></p>
-  <ul>
-    <li>Reviewing reports and stamps before relying on them</li>
-    <li>Ensuring your documentation meets contractual, legal, insurance or regulatory requirements applicable to you</li>
-    <li>Obtaining any consents required to photograph people or private property</li>
-  </ul>
-  <p>We do not guarantee that reports generated with the App are suitable for evidentiary, legal, or compliance purposes in your jurisdiction.</p>
+<h2>14. Retention</h2>
+<ul>
+  <li>Content in the App: kept on your device until you delete it or delete the App.</li>
+  <li>Support emails: kept as long as needed for support and reasonable record-keeping, unless you ask us to delete them, subject to applicable law.</li>
+</ul>
 
-  <h2>7. Subscriptions (Site Reports Pro)</h2>
-  <p>Pro unlocks unlimited projects, issues, photos and branded PDF reports. Plans:</p>
-  <ul>
-    <li>Yearly subscription</li>
-    <li>Monthly subscription</li>
-  </ul>
-  <p>A free trial may be offered to eligible users as displayed on the App Store purchase screen.</p>
-  <p>Subscriptions auto-renew unless canceled at least 24 hours before the end of the current period, via <strong>Settings → Apple ID → Subscriptions</strong>. Refunds are handled by Apple. Terms of use: Apple's standard <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement (EULA)</a>.</p>
+<h2>15. Security</h2>
+<p>Content stored by the App is protected by the security features of your device and iOS, such as device encryption and your passcode. No method of storage or transmission is completely secure, and we cannot guarantee absolute security. Keeping your device secure and backed up is your responsibility.</p>
 
-  <h2>8. No Advertising or Cross-App Tracking</h2>
-  <p>This App does not include advertising SDKs, third-party analytics SDKs, tracking technologies or cross-app tracking identifiers. We do not use your data for advertising, profiling or tracking. Content is disclosed to another service only when you intentionally export or share it using a destination you select.</p>
+<h2>16. Your rights</h2>
+<p>Depending on where you live and the applicable law (for example the GDPR, UK GDPR, KVKK or CCPA), you may have rights to access, correct or delete personal information you have shared with us, such as the content of support emails, and to withdraw consent. To exercise these rights, contact <a href="mailto:appsroutine@gmail.com">appsroutine@gmail.com</a>. You may also have the right to complain to your local data-protection authority. Content kept by the App stays on your device, so you can remove it yourself in the App or by deleting the App.</p>
 
-  <h2>9. Legal Bases (GDPR / CCPA / KVKK)</h2>
-  <p>We process support communications as necessary to respond to your request and manage customer support. Where applicable, this processing is based on our legitimate interests, the performance of a service requested by you, compliance with legal obligations, or your consent. Apple's provision of diagnostic information is subject to your Apple device settings and Apple's privacy practices. We process any diagnostic information made available to us solely to diagnose technical problems and improve the App.</p>
-  <p>We do not operate servers for storing your projects, photos or reports. Apple and your email provider may process information under their own terms and privacy policies, which may involve processing in different jurisdictions. For CCPA purposes, we do not "sell" or "share" personal information.</p>
+<h2>17. Children</h2>
+<p>The App is intended for professional use and is not directed at children under 13 (or under 16 where local law requires). We do not knowingly collect personal information from children. If you believe a child has contacted us, please let us know and we will delete the message.</p>
 
-  <h2>10. Your Rights</h2>
-  <p>Depending on your region (EU/UK GDPR, California CCPA, Türkiye KVKK), you may have rights to:</p>
-  <ul>
-    <li>Access information you emailed us</li>
-    <li>Request deletion of support emails</li>
-    <li>Correct inaccuracies</li>
-    <li>Withdraw diagnostic consent</li>
-    <li>Lodge a complaint with your supervisory authority</li>
-  </ul>
-  <p>To exercise your rights, contact: <strong>appsroutine@gmail.com</strong>. On-device data (projects, photos, reports) can be deleted at any time in the App or by uninstalling it.</p>
+<h2>18. Third-party services and links</h2>
+<p>The App relies on Apple services and frameworks (such as the App Store, StoreKit, Core Location and the system photo picker) and may link to external pages. Those services and pages are governed by their own terms and privacy policies, and we are not responsible for their practices.</p>
 
-  <h2>11. Data Retention</h2>
-  <ul>
-    <li><strong>On-device content:</strong> Stored until you delete it or remove the App</li>
-    <li><strong>Support emails:</strong> Retained only for as long as necessary to handle your request and keep reasonable records; deleted upon request</li>
-    <li><strong>App content on our servers:</strong> None — we do not operate servers for storing your projects, photos or reports</li>
-  </ul>
+<h2>19. Changes</h2>
+<p>We may update this policy from time to time. The “Last updated” date shows the latest version. Continued use of the App after an update means the updated policy applies, to the extent permitted by law.</p>
 
-  <h2>12. Security</h2>
-  <p>Because project content is processed locally and is not stored on servers operated by us, it is not exposed to risks associated with an application-content server operated by the developer. Device encryption and applicable iOS security protections may help protect locally stored content. Support emails are processed and stored by our email service provider under its applicable security and privacy practices.</p>
-  <p>The security of on-device data also depends on the security settings of your device (such as passcodes, encryption and iCloud account protection). You are responsible for maintaining the security of your own device.</p>
+<h2>20. Governing law</h2>
+<p>This policy is governed by the laws of the Republic of Türkiye. This does not limit any rights you may have under mandatory data-protection law of your country of residence.</p>
 
-  <h2>13. Third-Party Services</h2>
-  <p>We rely on:</p>
-  <ul>
-    <li>Apple In-App Purchases (no payment data shared with us)</li>
-    <li>Apple system frameworks used for local on-device processing (such as SwiftUI, SwiftData, Core Graphics and PDFKit)</li>
-  </ul>
-  <p>No other third-party services are used. We are not responsible for the privacy practices of services you choose to share your reports with.</p>
+<h2>21. Contact</h2>
+<p>Habibe Atik · Istanbul, Türkiye · <a href="mailto:appsroutine@gmail.com">appsroutine@gmail.com</a></p>
 
-  <h2>14. Children's Privacy</h2>
-  <p>The App is intended for professional use and is <strong>not</strong> directed to children. We do not knowingly collect personal information from children through the App. If a child contacts us by email and you believe we have retained their personal information, please contact us so that we can review and delete it where appropriate.</p>
-
-  <h2>15. Terms of Use</h2>
-  <p>Use of the App is governed by Apple's standard <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Licensed Application End User License Agreement (EULA)</a>, which covers license terms, warranty disclaimers and limitations of liability.</p>
-
-  <h2>16. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy as needed. The "Last updated" date will reflect changes. Significant updates may be communicated in-app or in release notes.</p>
-
-  <h2>17. Contact</h2>
-  <p>
-    For privacy requests, questions, or concerns:<br>
-    <strong>Email:</strong> <a href="mailto:appsroutine@gmail.com">appsroutine@gmail.com</a><br>
-    <strong>Location:</strong> Istanbul, Türkiye
-  </p>
-
-  <footer>© 2026 Site Reports. All rights reserved.</footer>
-</div>
+<footer>Site Reports · Habibe Atik · Istanbul, Türkiye · <a href="mailto:appsroutine@gmail.com">appsroutine@gmail.com</a></footer>
 </body>
 </html>
